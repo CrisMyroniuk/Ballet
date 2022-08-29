@@ -15,6 +15,7 @@ function NavBar() {
             <Nav className="me-auto">
               <Nav.Link className="text" href="#home">Home</Nav.Link>
               <Nav.Link className="text" href="#link">Nuestras presentaciones</Nav.Link>
+              <Nav.Link className="text" href="#link">Proximas presentaciones</Nav.Link>
               <Nav.Link className="text" href="#link">Nosotros</Nav.Link>
               <Nav.Link className="text" href="#link">Contacto</Nav.Link>
             </Nav>
