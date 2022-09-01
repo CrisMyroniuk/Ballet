@@ -2,7 +2,7 @@ import './NavBar.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import { BsInstagram } from "react-icons/bs";
 
 function NavBar() {
     return (
@@ -18,6 +18,7 @@ function NavBar() {
               <Nav.Link className="text" href="#link">Proximas presentaciones</Nav.Link>
               <Nav.Link className="text" href="#link">Nosotros</Nav.Link>
               <Nav.Link className="text" href="#link">Contacto</Nav.Link>
+              <Nav.Link className="text" href="#link"><BsInstagram /></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

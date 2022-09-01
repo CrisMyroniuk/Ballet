@@ -1,4 +1,5 @@
 import CardPresentaciones from './CardPresentaciones'
+import './Presentaciones.css';
 
 function Presentaciones() {
   return (

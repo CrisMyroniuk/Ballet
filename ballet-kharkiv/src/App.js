@@ -2,15 +2,18 @@
 import './App.css';
 import NavBar from './NavBar/NavBar'
 import Presentaciones from './Presentaciones/Presentaciones'
+import Nosotros from './Nosotros/Nosotros'
+import Home from './Home/Home'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-    <NavBar />
-    <header className="App-header">
+      <NavBar />
+      <Home />
+      <Nosotros />
       <Presentaciones/>
-    </header>
     </div>
   );
 }
